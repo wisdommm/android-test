@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>胡智慧的简历</title>
+		<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main css.css">
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="st-container">
+				<!--导航-->
+				<input type="radio" name="radio-set" checked="checked" id="st-control-1">
+				<a href="#st-panel-1">首页</a>
+				<input type="radio" name="radio-set" id="st-control-2">
+				<a href="#st-panel-2">第二页</a>
+				<input type="radio" name="radio-set" id="st-control-3">
+				<a href="#st-panel-3">第三页</a>
+				<input type="radio" name="radio-set" id="st-control-4">
+				<a href="#st-panel-4">第四页</a>
+				<input type="radio" name="radio-set" id="st-control-5">
+				<a href="#st-panel-5">末页</a>
+			
+				<!--内容区-->
+				<div class="st-scroll">
+					<section class="st-panel st-color" id="st-panel-1">
+						<div class="st-desc" data-icon="H"></div>
+						<h2>save foodies!</h2>
+						<div class="st-content">
+							<img src="img/tubiao.png" style="width:600px; height: 400px;">
+							<h4>made by 胡智慧</h4>
+						</div>
+					</section>
+					<section class="st-panel " id="st-panel-2">
+						<div class="st-desc" data-icon="H"></div>
+						<h2>扫描</h2>
+						<div class="st-content">
+							<img id="imggg" src="img/1.png">
+						</div>
+					</section>
+					<section class="st-panel st-color" id="st-panel-3">
+						<div class="st-desc" data-icon="H"></div>
+						<h2>食物库</h2>
+						<div class="st-content">
+							<img id="imgg" src="img/2.png">
+						</div>
+					</section>
+					<section class="st-panel " id="st-panel-4">
+						<div class="st-desc" data-icon="H"></div>
+						<h2>运动与最近记录</h2>
+						<div class="st-content" style="line-height: 25px;">
+							<img id="img" src="img/3.png">
+							<img id="img1" src="img/5.png">
+						</div>
+					</section>
+					<section class="st-panel st-color" id="st-panel-5">
+						<div class="st-desc" data-icon="H"></div>
+						<h2>末页</h2>
+						<div class="st-content">
+							<img src="img/thankyou.jpg">							
+						</div>
+					</section>	
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript"> 
+
+			document.getElementById("img").onclick = function(){
+ 				this.src = "img/6.png";
+ 				document.getElementById("img1").src="img/55.png";
+ 			}
+
+ 			document.getElementById("imgg").onclick = function(){
+ 				this.src = "img/4.png";
+ 			}
+
+ 			document.getElementById("imggg").onclick = function(){
+ 				this.src = "img/11.png";
+ 			}
+	    </script>
+	</body>
+</html>
